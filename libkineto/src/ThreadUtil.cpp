@@ -20,6 +20,7 @@
 #define NOGDI
 #include <windows.h>
 #include <processthreadsapi.h>
+#include "oldWindowsKitCorrection.h"
 #undef ERROR
 #endif // _MSC_VER
 
